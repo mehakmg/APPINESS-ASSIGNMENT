@@ -7,7 +7,7 @@ const PostEmployee = (props) => {
     console.log(props.postsemp)
 
     if (!props.isLoggedIn) {
-        props.history.push("/login")
+        props.history.push("/")
     }
 
     const data = props.postsemp.user.map((listValue,index) => {
